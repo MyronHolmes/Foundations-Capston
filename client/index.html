@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./stylesheet.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div id="title">
+        <h1>Cookbook Manager</h1>
+        <img id="img" src="../img/—Pngtree—vector illustration fork spoon chef_5455666.png" alt="icon">
+    </div>
+    <div id="container">
+    <section class="btns"> 
+        <button id="recipes">Recipes</button>
+        <form id="create-form">
+            <H2>Add Recipes To<br> Your Cookbook:</H2>
+                <label for="dish">Name of Dish:<span style="color:red">*</span></label>
+                <input type="text" id="dish" name="dish" placeholder="What are you adding?">
+
+                <label for="ingredients">Ingredients:<span style="color:red">*</span></label>
+                <input type="text" id="ingredients" name="ingredients" placeholder="What does it included?">
+
+                <label for="instructions">Instructions:<span style="color:red">*</span></label>
+                <input type="text" id="instructions" name="instructions" placeholder="paste URL with instructions here">
+
+                <label for="notes">Notes:</label>
+                <input type="text" id="notes" name="notes" placeholder="Add addtional notes here"> 
+
+                <button id="form-btn">Add Recipe</button>   
+
+        </form>
+    </section>
+    <main class="content"></main>
+    </div>
+    <script src="../node_modules/axios/dist/axios.min.js"></script>
+    <script src="./main.js"></script>   
+    
+</body>
+</html>

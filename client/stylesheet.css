@@ -1,0 +1,120 @@
+body{
+    font-family: 'Indie Flower', cursive;
+    height: 100%;
+    width: 100%;
+    background-color: #ddb892;
+}
+
+#title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large
+}
+
+#img{
+    height: 6%;
+    width: 6%;
+}
+
+#container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.btns{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    right: 30px;
+    
+}
+
+button{
+    padding: 10px;
+    border-radius: 50%;
+    font-family: cursive;
+    font-size: large;
+    width: 140px;
+    margin: 3px;
+    border: black solid;
+}
+
+.content{
+    border: black solid 2px;
+    width: 75%;
+    height: 700px;
+    position: relative;
+    left: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content2{
+    height: 100%;
+}
+
+.entryCont{
+    height: 600px;
+    width: 225px;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 50px;
+    border-bottom: dotted black 2px;
+}
+
+#create-form{
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    margin-bottom: 10px;
+    border: black solid;
+    width: 165px;
+}
+
+.actionBtns{
+    height: 5px;
+    width: 5px;
+    border-radius: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border: transparent;
+}
+
+.saveBtn{
+    height: 10px;
+    width: 50px;
+    border-radius: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border: solid, black, 20px;
+}
+
+.editIcon{
+    height: 40px;
+    width: 40px;
+}
+
+button:hover{
+    box-shadow: 3px 3px black ;
+}
+
+.rTitle{
+    display: flex;
+}
+
+.deleteIcon{
+    height: 20px;
+    width: 20px;
+}
+
+.hide{
+    visibility:hidden;
+}
