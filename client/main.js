@@ -37,7 +37,7 @@ const displayRecipe= (reci) =>{
     <button class='actionBtns'><img id='delete${reci.dish_id}' class= 'deleteIcon' src="../img/icons8-trash-64.png" alt="delete"></button>
     </div>
     <h3>Ingredients:</h3><p id='ingredients${reci.dish_id}'><span>${reci.ingredients}</span></p>
-    <h3>Instructions:</h3><<a id='instructions${reci.dish_id}' href='${reci.instructions}'><span>How to Make ${reci.dish}</span></a>
+    <h3>Instructions:</h3><a id='instructions${reci.dish_id}' href='${reci.instructions}'><span>How to Make ${reci.dish}</span></a>
     <h3>Notes:</h3><p id='notes${reci.dish_id}'><span>${reci.notes}</span></p>
     </section>`;
     
